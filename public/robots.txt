@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-weld-one-26.vercel.app/sitemap.xml

@@ -1,0 +1,10 @@
+export const navLinks = [
+  { id: 'home', label: 'Home', href: '#home' },
+  { id: 'about', label: 'About', href: '#about' },
+  { id: 'experience', label: 'Experience', href: '#experience' },
+  { id: 'skills', label: 'Skills', href: '#skills' },
+  { id: 'projects', label: 'Projects', href: '#projects' },
+  { id: 'certificates', label: 'Certificates', href: '#certificates' },
+  { id: 'github', label: 'GitHub', href: '#github' },
+  { id: 'contact', label: 'Contact', href: '#contact' },
+];
