@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" rx="48" fill="#050816"/>
+  <circle cx="320" cy="280" r="220" fill="url(#bg)" opacity="0.14"/>
+  <circle cx="500" cy="180" r="78" fill="#22D3EE" opacity="0.2"/>
+  <circle cx="140" cy="620" r="100" fill="#4F46E5" opacity="0.18"/>
+  <rect x="152" y="148" width="336" height="434" rx="36" fill="#0F172A" stroke="rgba(255,255,255,0.1)"/>
+  <rect x="208" y="182" width="224" height="140" rx="24" fill="#111827"/>
+  <rect x="232" y="208" width="176" height="16" rx="8" fill="#22D3EE" opacity="0.95"/>
+  <rect x="232" y="236" width="132" height="12" rx="6" fill="#E2E8F0" opacity="0.85"/>
+  <rect x="232" y="256" width="104" height="12" rx="6" fill="#E2E8F0" opacity="0.7"/>
+  <rect x="176" y="350" width="288" height="180" rx="26" fill="#111827"/>
+  <rect x="202" y="380" width="112" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="202" y="406" width="164" height="12" rx="6" fill="#94A3B8" opacity="0.75"/>
+  <rect x="202" y="432" width="138" height="12" rx="6" fill="#94A3B8" opacity="0.7"/>
+  <rect x="360" y="392" width="70" height="70" rx="16" fill="#4F46E5" opacity="0.95"/>
+  <path d="M380 414h30" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M395 400v28" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <rect x="186" y="560" width="268" height="54" rx="27" fill="url(#bg)" opacity="0.95"/>
+  <circle cx="214" cy="587" r="12" fill="#fff"/>
+  <path d="M238 587h76" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M356 566l40 42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M396 566l-40 42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="92" y="238" width="82" height="82" rx="20" fill="#0F172A" stroke="rgba(255,255,255,0.14)"/>
+  <text x="133" y="290" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#22D3EE">JS</text>
+  <rect x="466" y="298" width="82" height="82" rx="20" fill="#0F172A" stroke="rgba(255,255,255,0.14)"/>
+  <text x="507" y="350" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#4F46E5">PHP</text>
+  <rect x="230" y="84" width="42" height="42" rx="12" fill="#22D3EE" opacity="0.88"/>
+  <rect x="366" y="88" width="42" height="42" rx="12" fill="#4F46E5" opacity="0.88"/>
+</svg>

@@ -1,20 +1,24 @@
 export const experience = [
   {
     id: 'parrophins',
-    role: 'Software Developer Intern',
+    role: 'Software Engineer',
     company: 'Parrophins Pvt Ltd',
-    location: 'Kodailbail, Mangalore',
-    period: 'Feb 2025 — May 2025',
-    type: 'Internship',
-    techStack: ['PHP', 'CodeIgniter', 'MySQL', 'Bootstrap', 'HTML5', 'CSS3', 'Git', 'GitHub'],
+    location: 'Kodialbail, Mangalore',
+    period: 'Feb 2025 — June 2026',
+    type: 'Full-time',
+    techStack: ['PHP', 'CodeIgniter', 'MySQL', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'REST API', 'Git', 'GitHub'],
     responsibilities: [
-      'Developed specific components and contributed to the overall architecture of the SchoolPhins application.',
-      'Worked on both front-end and back-end development, ensuring a seamless user experience.',
-      'Implemented key features like fees payment portal, receipt generation, certificate and reports of academic and fees payment.',
+      'Developed and maintained scalable ERP modules for the SchoolPhins platform, serving over 57 educational institutions.',
+      'Designed, developed, and optimized RESTful APIs and backend services using PHP and CodeIgniter.',
+      'Built and enhanced modules for student management, fee management, attendance, examinations, academic reports, certificates, payroll, and administration.',
+      'Optimized MySQL database queries and database schema, improving application performance and reducing response times.',
+      'Collaborated with cross-functional teams to develop new features, resolve production issues, and ensure high application reliability.',
+      'Enhanced user experience by implementing responsive interfaces and streamlining application workflows.',
+      'Participated in code reviews, debugging, testing, deployment, and Agile development while using Git for version control.',
     ],
     achievements: [
-      'Delivered production-ready modules for school management workflows.',
-      'Collaborated across the stack on a live education platform.',
+      'Delivered multiple ERP modules to production, improving efficiency across school operations.',
+      'Reduced backend response times through query optimization and infrastructure improvements.',
     ],
   },
   {
@@ -41,7 +45,7 @@ export const education = [
     degree: 'Bachelor of Computer Science and Engineering',
     institution: 'Visvesvaraya Technological University',
     period: '2021 — 2025',
-    detail: 'CGPA: 8.43',
+    detail: 'CGPA: 8.42',
   },
   {
     id: 'puc',
@@ -55,13 +59,13 @@ export const education = [
 export const timeline = [
   {
     year: '2025',
-    title: 'Software Developer Intern',
+    title: 'Software Engineer',
     subtitle: 'Parrophins Pvt Ltd',
   },
   {
     year: '2025',
     title: 'B.Tech CSE (Graduating)',
-    subtitle: 'VTU — CGPA 8.43',
+    subtitle: 'VTU — CGPA 8.42',
   },
   {
     year: '2023',

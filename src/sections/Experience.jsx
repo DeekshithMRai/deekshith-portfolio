@@ -14,7 +14,7 @@ export function Experience() {
         />
 
         <div className="relative">
-          <div className="absolute left-4 top-0 hidden h-full w-px bg-gradient-to-b from-primary via-accent to-transparent md:left-1/2 md:block md:-translate-x-px" />
+          <div className="absolute left-4 top-0 hidden h-full w-px bg-gradient-to-b from-primary via-accent to-transparent md:block" />
 
           <div className="space-y-12">
             {experience.map((job, i) => (
@@ -24,14 +24,11 @@ export function Experience() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-80px' }}
                 transition={{ delay: i * 0.15, duration: 0.6 }}
-                className={`relative md:flex ${i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}
+                className="relative"
               >
-                <div className="hidden md:block md:w-1/2" />
-                <div
-                  className={`md:w-1/2 ${i % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'}`}
-                >
+                <div className="md:pl-14">
                   <GlassCard>
-                    <div className={`flex items-center gap-2 ${i % 2 === 0 ? 'md:justify-end' : ''}`}>
+                    <div className="flex items-center gap-2">
                       <Briefcase size={16} className="text-accent" />
                       <span className="text-xs font-medium uppercase tracking-wider text-primary">
                         {job.period}
@@ -41,7 +38,7 @@ export function Experience() {
                     <p className="mt-1 text-accent">{job.company}</p>
                     <p className="text-sm text-slate-500">{job.location}</p>
 
-                    <ul className={`mt-4 space-y-2 ${i % 2 === 0 ? 'md:text-right' : ''}`}>
+                    <ul className="mt-4 space-y-2">
                       {job.responsibilities.map((item) => (
                         <li key={item} className="text-sm text-slate-400">
                           {item}
@@ -49,7 +46,7 @@ export function Experience() {
                       ))}
                     </ul>
 
-                    <div className={`mt-4 flex flex-wrap gap-2 ${i % 2 === 0 ? 'md:justify-end' : ''}`}>
+                    <div className="mt-4 flex flex-wrap gap-2">
                       {job.techStack.map((tech) => (
                         <span
                           key={tech}
@@ -62,7 +59,7 @@ export function Experience() {
                   </GlassCard>
                 </div>
 
-                <div className="absolute left-4 top-6 hidden h-3 w-3 -translate-x-1/2 rounded-full border-2 border-primary bg-background md:left-1/2 md:block" />
+                <div className="absolute left-4 top-6 hidden h-3 w-3 -translate-x-1/2 rounded-full border-2 border-primary bg-background md:block" />
               </motion.div>
             ))}
           </div>

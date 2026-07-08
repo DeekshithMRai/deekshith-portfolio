@@ -43,7 +43,7 @@ export function CustomCursor() {
   return (
     <>
       <div
-        className="custom-cursor pointer-events-none fixed z-[9999] mix-blend-difference"
+        className="custom-cursor pointer-events-none fixed z-[9999]"
         style={{
           left: position.x,
           top: position.y,
@@ -52,15 +52,24 @@ export function CustomCursor() {
         aria-hidden="true"
       >
         <div
-          className="rounded-full border border-white transition-all duration-200 ease-out"
+          className="rounded-full border border-cyan-300/80 bg-cyan-300/20 shadow-[0_0_18px_rgba(34,211,238,0.35)] transition-all duration-200 ease-out"
           style={{
-            width: isHovering ? 48 : 12,
-            height: isHovering ? 48 : 12,
-            opacity: isHovering ? 0.5 : 1,
+            width: isHovering ? 44 : 12,
+            height: isHovering ? 44 : 12,
+            opacity: isHovering ? 0.75 : 0.95,
+            transform: isHovering ? 'scale(1.05)' : 'scale(1)',
+          }}
+        />
+        <div
+          className="absolute left-1/2 top-1/2 rounded-full bg-white transition-all duration-200 ease-out"
+          style={{
+            width: isHovering ? 6 : 3,
+            height: isHovering ? 6 : 3,
+            transform: isHovering ? 'translate(-50%, -50%) scale(1.15)' : 'translate(-50%, -50%)',
           }}
         />
       </div>
-      <style>{`body { cursor: none; } a, button { cursor: none; }`}</style>
+      <style>{`body { cursor: none; } a, button, [data-cursor="pointer"] { cursor: none; }`}</style>
     </>
   );
 }

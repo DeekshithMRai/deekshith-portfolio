@@ -63,9 +63,9 @@ export function GitHubSection() {
         )}
 
         {error && (
-          <GlassCard className="text-center">
-            <p className="text-slate-400">Unable to load GitHub data. Please try again later.</p>
-          </GlassCard>
+          <div className="mb-6 text-center text-sm text-slate-400">
+            {error}
+          </div>
         )}
 
         {user && !loading && (

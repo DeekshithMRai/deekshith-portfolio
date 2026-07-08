@@ -38,7 +38,7 @@ export function Loader({ onComplete }) {
             animate={{ opacity: 1, scale: 1 }}
             className="mb-8 text-5xl font-bold"
           >
-            <span className="gradient-text">DR</span>
+            <span className="gradient-text">DMR</span>
           </motion.div>
 
           <div className="relative h-1 w-48 overflow-hidden rounded-full bg-white/10">

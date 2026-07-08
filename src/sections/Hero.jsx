@@ -89,7 +89,7 @@ export function Hero() {
               data-cursor="pointer"
             >
               <FileText size={18} />
-              Resume
+              View Resume
             </MagneticButton>
             <MagneticButton variant="secondary" onClick={scrollToContact} data-cursor="pointer">
               <Mail size={18} />

@@ -1,3 +1,5 @@
+import { certificates } from '@/data/certificates';
+
 export const theme = {
   colors: {
     primary: '#4F46E5',
@@ -15,6 +17,5 @@ export const stats = {
   experience: { value: 1.5, suffix: '+', label: 'Years Experience' },
   projects: { value: 10, suffix: '+', label: 'Projects' },
   technologies: { value: 15, suffix: '+', label: 'Technologies' },
-  // TODO: Add real certificate count when certificate data is available
-  certificates: { value: 0, suffix: '', label: 'Certificates' },
+  certificates: { value: certificates.length, suffix: '', label: 'Certificates' },
 };

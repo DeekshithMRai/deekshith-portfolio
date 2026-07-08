@@ -66,7 +66,7 @@ export function Navbar() {
             }}
             className="text-lg font-semibold text-white transition-colors hover:text-accent"
           >
-            {personal.name.split(' ')[0]}
+            {personal.name}
             <span className="text-primary">.</span>
           </a>
 
@@ -99,14 +99,24 @@ export function Navbar() {
             ))}
           </ul>
 
-          <button
-            className="rounded-lg p-2 text-white md:hidden"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
-            aria-expanded={mobileOpen}
-          >
-            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-          </button>
+          <div className="flex items-center gap-2">
+            <a
+              href={personal.resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden rounded-lg border border-primary/30 bg-primary/10 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-primary/20 sm:inline-flex"
+            >
+              Resume
+            </a>
+            <button
+              className="rounded-lg p-2 text-white md:hidden"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={mobileOpen}
+            >
+              {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+            </button>
+          </div>
         </nav>
       </motion.header>
 

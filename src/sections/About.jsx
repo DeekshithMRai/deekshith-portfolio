@@ -17,20 +17,20 @@ export function About() {
           description="Backend & full-stack developer passionate about building scalable, user-centric applications."
         />
 
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid items-start gap-12 lg:grid-cols-2 lg:gap-16">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.7 }}
-            className="relative mx-auto w-full max-w-md"
+            className="relative w-full max-w-md self-start"
           >
             <div className="absolute -inset-4 rounded-xl bg-gradient-to-br from-primary/30 to-accent/20 blur-2xl" />
-            <div className="relative overflow-hidden rounded-xl glass">
+            <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-primary/20 via-background/80 to-accent/20 p-3 shadow-[0_20px_80px_rgba(79,70,229,0.18)]">
               <img
                 src={personal.image}
-                alt={`${personal.name} — Software Developer`}
-                className="aspect-[4/5] w-full object-cover"
+                alt={`${personal.name} — Software Engineer`}
+                className="aspect-[4/5] w-full rounded-[22px] object-cover"
                 loading="lazy"
               />
             </div>
@@ -49,7 +49,7 @@ export function About() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-lg leading-relaxed text-slate-300">{personal.bio}</p>
+            <p className="text-lg leading-relaxed text-slate-300 text-justify">{personal.bio}</p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               {[

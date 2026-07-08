@@ -1,14 +1,14 @@
 export const personal = {
   name: 'Deekshith M Rai',
-  role: 'Software Developer',
-  tagline: 'Backend / Full Stack Developer',
-  experience: '1.5+ Years',
+  role: 'Software Engineer',
+  tagline: 'PHP • React • Java • Full Stack',
+  experience: '2+ Years',
   location: 'Kasaragod, Kerala',
   email: 'deekshithmrai02@gmail.com',
   phone: '+91 807-872-7106',
   resumeUrl:
-    'https://drive.google.com/file/d/1mwRb2iiUSL5J0hyrMsAwSG_GV5BXF15P/view?usp=drive_link',
-  bio: `As an aspiring Software Developer / Full-Stack Developer, I thrive on building efficient and scalable applications using Python, Django, React, and SQL. With a strong foundation in problem-solving and software architecture, I aim to develop innovative solutions that enhance user experience and system performance. I am eager to contribute my skills to a dynamic team while continuously evolving with emerging technologies.`,
+    'https://drive.google.com/file/d/1elUcYLdlNAq9wI6RWrb4DRysxdkb848Y/view?usp=sharing',
+  bio: `Software Developer with 1.5+ years of experience in full-stack development, REST API design, database management, and enterprise web applications. Skilled in Java, SQL, PHP, CodeIgniter, MySQL, PostgreSQL, React.js, and RESTful services, with expertise in building scalable applications, optimizing performance, and solving complex business challenges across large-scale ERP systems serving 57+ institutions. Proven track record of delivering high-performance solutions, streamlining business processes, and improving system efficiency through robust software engineering practices.`,
   domain: 'Software Development / Web Development',
   education: 'Bachelor of Computer Science Engineering',
   languages: ['English', 'Hindi', 'Kannada', 'Malayalam'],
@@ -22,7 +22,7 @@ export const personal = {
   },
   githubUsername: 'DeekshithMRai',
   heroDescription:
-    'I build efficient, scalable full-stack applications with React, Python, Django, and modern web technologies — with hands-on AI/ML project experience.',
-  image: '/images/about-me.png',
+    'I design and ship reliable full-stack products with React, PHP, Java, and modern APIs — blending performance, clarity, and user-focused design.',
+  image: '/images/profile.png',
   profileImage: '/images/profile.png',
 };

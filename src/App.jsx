@@ -5,6 +5,7 @@ import { Footer } from '@/components/layout/Footer';
 import { Loader } from '@/components/layout/Loader';
 import { CustomCursor } from '@/components/layout/CustomCursor';
 import { ScrollProgress } from '@/components/layout/ScrollProgress';
+import { FloatingResumeButton } from '@/components/layout/FloatingResumeButton';
 import { HomePage } from '@/pages/HomePage';
 import { useLenis } from '@/hooks/useLenis';
 import { usePrefersReducedMotion } from '@/hooks/useMediaQuery';
@@ -34,6 +35,7 @@ export default function App() {
       <main id="main-content" tabIndex={-1}>
         <HomePage />
       </main>
+      <FloatingResumeButton />
       <Footer />
     </BrowserRouter>
   );
