@@ -1,13 +1,13 @@
 export const personal = {
   name: 'Deekshith M Rai',
   role: 'Software Engineer',
-  tagline: 'PHP • React • Java • Full Stack',
+  tagline: 'PHP • React • Java • Django •  Full Stack',
   experience: '2+ Years',
   location: 'Kasaragod, Kerala',
   email: 'deekshithmrai02@gmail.com',
   phone: '+91 807-872-7106',
   resumeUrl:
-    'https://drive.google.com/file/d/1elUcYLdlNAq9wI6RWrb4DRysxdkb848Y/view?usp=sharing',
+    'https://drive.google.com/file/d/1fxlLPcSGWBi3AnRnw8FsKqJE8Do7BQkj/view?usp=sharing',
   bio: `Software Developer with 1.5+ years of experience in full-stack development, REST API design, database management, and enterprise web applications. Skilled in Java, SQL, PHP, CodeIgniter, MySQL, PostgreSQL, React.js, and RESTful services, with expertise in building scalable applications, optimizing performance, and solving complex business challenges across large-scale ERP systems serving 57+ institutions. Proven track record of delivering high-performance solutions, streamlining business processes, and improving system efficiency through robust software engineering practices.`,
   domain: 'Software Development / Web Development',
   education: 'Bachelor of Computer Science Engineering',
