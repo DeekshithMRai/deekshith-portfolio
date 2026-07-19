@@ -7,7 +7,7 @@ export const personal = {
   email: 'deekshithmrai02@gmail.com',
   phone: '+91 807-872-7106',
   resumeUrl:
-    'https://drive.google.com/file/d/1fxlLPcSGWBi3AnRnw8FsKqJE8Do7BQkj/view?usp=sharing',
+    'https://drive.google.com/file/d/1_gTt3q-W-UIZua2nz9PGa-2QZxwFvPGS/view?usp=sharing',
   bio: `Software Developer with 1.5+ years of experience in full-stack development, REST API design, database management, and enterprise web applications. Skilled in Java, SQL, PHP, CodeIgniter, MySQL, PostgreSQL, React.js, and RESTful services, with expertise in building scalable applications, optimizing performance, and solving complex business challenges across large-scale ERP systems serving 57+ institutions. Proven track record of delivering high-performance solutions, streamlining business processes, and improving system efficiency through robust software engineering practices.`,
   domain: 'Software Development / Web Development',
   education: 'Bachelor of Computer Science Engineering',
